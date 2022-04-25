@@ -1,0 +1,130 @@
+<!DOCTYPE html5>
+<style>
+
+
+ </style>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135750514-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135750514-1');
+</script>
+
+    <meta charset="UTF-8">
+    <title>Aedan Graves - Game Development Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="TZ_ProjPage_Style.css">
+</head>
+
+    <body>
+        <div class="banner">
+            <a href="Home_Page.html" style="color:rgb(172,99,36); font-size:2em; font-weight: bolder; font-family:decomart_font; position: relative; left: 2.5%; top: 20%; float:left;">AEDAN GRAVES</a>
+           
+            <div style="text-align:left; position: relative; font-family: muli_font; top:30%; float:right; right:5%;">
+
+                <!-- needs link -->
+                <a href="About.html"style="position: relative;">ABOUT</a>
+           
+                <!-- needs link -->
+                <!--<a href="#"style="position: relative;">PROJECTS</a>-->
+           
+                <!-- needs link -->
+                       
+            </div>
+        </div>
+
+
+        <div class = "backgrond_Parallax">
+                    <div class="Title-desc">
+                        <p style="position: relative; padding-top:7rem; ">My work on project:</p>
+                        <p style="font-size:200%; position: relative; padding-top:1rem;  padding-bottom: 4rem; ">Total ZEN</p>
+                        <p style="font-size:85%; position:relative; padding-bottom:8rem;">
+                            This game was going to be 2D hack n' slash platformer, with the player having different abilities<br>
+                            affecting movement speed and attack power. The game would also have had an emphasis on story, NPC interaction, and collectables.<br>
+                            I learned a lot about UI design, game progression systems, and sprite rendering during the time of development.<br>
+                            I also did the coding for the basic control of the character and XML serialization. <br>
+                            We Ultimately stopped working on this due to fear of getting burnt out, as we were moving pretty fast through development.
+                        </p>
+                        <!--<p style="font-size:85%; position:relative; padding-top:2rem;  padding-bottom:8rem; line-height: 200%">  </p>-->
+                    </div>
+
+           <div class = "infoBlock" style=" background-color:rgba(47, 47, 47, 0.255); margin-bottom: 1rem;">
+            
+               <div class = "twoDdivMini" style="padding-top:10%; padding-left:5%;">
+                    <p style="position: relative; font-size: 1.5vw;text-align: center;">Character Logic</p>
+                    <p style="position: relative; padding-top:5%; text-align: center; font-size: .85vw;"> 
+                        The game was a 2D Hack n' Slash platformer and our first 2D game.<br> 
+                        When my co-developer told me about his idea for this game,<br>
+                        we were both excited to try out some ideas and dove head first into Unity's 2D physics engine<br>
+                        I quickly got to work on a physics based character controller, complete with light combat mechanics.<br>
+                        To this day, I still work on it and use it for my 2D projects.<br>
+                        A playable demo featuring the controller can be found on<a href="Coding_Work.html" style="text-decoration: none;color:rgb(70, 110, 168); font-weight: bold;"> this page</a>.
+                        </p>
+               </div>
+               <img src = "TotalZEN_content/Images/Snap_1.png" style="padding:1%;position: relative; width:45%; height:auto; left:22.5%;">
+           </div>
+
+
+
+           <div class="infoBlock"style="background-color:rgba(47, 47, 47, 0.255);  margin-bottom: 1rem;">
+                        
+                <div class="twoDdivMini" style="padding-top:8%; padding-right:5%; right:0%; text-align: center;">
+                        <p style="position: relative; font-size: 1.5vw;text-align: center;">XML Serialization</p>
+                        <p style="position: relative; padding-top:5%; text-align: center; font-size: .85vw;">
+                        Pretty early in development, it it became clear we wanted a way to save game progress.<br>
+                        I've never done data serialization beyond Unity's "Player Prefs" <br>
+                        and was looking forward to learning, however it proved to be much more difficult than I had anticipated<br>
+                        and turned out pretty clunky. But it did lay down the ground work for future <br>
+                        saving systems that I used in later projects. After I finished the serialization system <br>
+                        I designed a menu UI to interface with the files which also was much harder <br>
+                        to do than I thought it would be, but I think it worked out nicely
+                        </p> 
+                </div>
+                <img src="TotalZEN_content/Images/Snap_2.png" style="padding:1%;position: relative; width:45%; height:auto; right:22.5%;">         
+        </div>
+
+
+        <div class="infoBlock" style="margin-bottom:1rem;background-color:rgba(47, 47, 47, 0.255);">
+                <div class="twoDdivMini" style="padding-top:8%; padding-left:5%;">
+                        <p style="position: relative; font-size: 1.5vw;text-align: center;">Sprite Animation</p>
+                        <p style="position: relative; padding-top:5%; text-align: center; font-size: .85vw;">
+                        Since neither me or my co-developer had experience in 2D sprite Animation,<br>
+                        we kind of cheated a little bit. I made a rudimentary 3D model of our character and animated in in 3D space<br>
+                        then rendered the animations at low resolutions and compiled the rendered frames in a sprite sheet.<br>
+                        I still wanted it to maintain the cartoon look so I made a shader in blender<br>
+                        that behaves much like a cel shader to give it that extra bit of styling I was looking for.     
+                </div>
+               
+                <div style="padding:0.9%; position: relative; width: 45%; height: 25.4vw; display: inline-block; left:22.5%;">
+                <img src="TotalZEN_content/Images/MidRun.png" style="padding-right:.5%;padding-bottom: 1%; position: relative; width:50%; height: 50%; left:0%; top:0%;display: block;">
+                <img src="TotalZEN_content/Images/Player_MasterSheet2.png" style="padding-right:.5%;padding-top: 1%; position: relative; width:50%; height: 50%; left:0%; top:0%;display: block;">
+                <img src="TotalZEN_content/Images/Running.gif" style="padding-left:.5%;padding-top: 1%; position: relative; width:50%; height: 50%; left:50%; bottom:50%;display: block;">
+                <img src="TotalZEN_content/Images/Shading.PNG" style="padding-left:.5%;padding-bottom: 1%; position: relative; width:50%; height: 50%; left:50%; bottom:150%;display: block;">
+                </div>
+        </div> 
+
+
+        </div>
+
+
+
+
+
+
+
+    </body>
+
+    <div class="footer_banner">
+
+                <p>603-275-6783</p><br><br>
+                <p style="position: absolute; padding:15px; font-size: 75%;  background-color: rgb(82,162,139); bottom:0; left:0; right:0;border-radius:  16px 16px 0px 0px;"> ©2018 by Aedan Graves - This site is running on a RaspberryPi, please be gentle! </p>
+    </div>
+ 
+
+
+</html>
